@@ -1,6 +1,6 @@
 {
   "name": "jonny",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/coderaiser/jonny",
   "authors": [
     "coderaiser <mnemonic.enemy@gmail.com>"
@@ -21,6 +21,5 @@
     "node_modules",
     "modules"
   ],
-  "dependencies": {
-  }
+  "dependencies": {}
 }
