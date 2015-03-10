@@ -15,8 +15,8 @@
     "url": "git://github.com/coderaiser/jonny.git"
   },
   "keywords": [
-    "patch",
-    "diff"
+    "json",
+    "try"
   ],
   "author": "coderaiser <mnemonic.enemy@gmail.com> (http://coderaiser.github.io/)",
   "license": "MIT",
