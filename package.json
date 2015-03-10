@@ -1,7 +1,7 @@
 {
   "name": "jonny",
   "version": "1.0.1",
-  "description": "work with json without exaptions",
+  "description": "Work with json with no exceptions",
   "main": "lib/jonny.js",
   "dependencies": {},
   "devDependencies": {},
