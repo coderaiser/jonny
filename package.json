@@ -4,7 +4,6 @@
   "description": "work with json without exaptions",
   "main": "lib/jonny.js",
   "dependencies": {
-    "diff-match-patch": "~1.0.0"
   },
   "devDependencies": {},
   "scripts": {
