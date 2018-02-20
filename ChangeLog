@@ -1,3 +1,12 @@
+2018.02.20, v2.0.0
+
+feature:
+- (jonny) es2015-ify
+- (package) description
+- (package) v1.0.1
+- (package) dependencies: rm diff-match-patch
+
+
 2015.03.10, v1.0.1
 
 fix:
