@@ -3,10 +3,25 @@
   "version": "1.0.1",
   "description": "Work with json with no exceptions",
   "main": "lib/jonny.js",
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape 'test/**/*.js'",
+    "coverage": "nyc npm test",
+    "lint": "eslint lib test",
+    "build": "babel lib -d legacy",
+    "legacy": "echo \"module.exports = require('./jonny')\" > legacy/index.js",
+    "wisdom": "redrun build legacy"
+  },
+  "dependencies": {
+    "try-catch": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "coveralls": "^3.0.0",
+    "eslint": "^4.18.0",
+    "nyc": "^11.4.1",
+    "redrun": "^5.10.3",
+    "tape": "^4.9.0"
   },
   "repository": {
     "type": "git",
