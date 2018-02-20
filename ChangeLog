@@ -1,3 +1,12 @@
+2018.02.20, v2.0.1
+
+fix:
+- (npmignore) add
+
+feature:
+- (jonny) es2015-ify
+
+
 2018.02.20, v2.0.0
 
 feature:
