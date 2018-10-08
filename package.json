@@ -21,7 +21,7 @@
     "coveralls": "^3.0.0",
     "eslint": "^4.18.0",
     "nyc": "^13.0.1",
-    "redrun": "^5.10.3",
+    "redrun": "^7.0.0",
     "tape": "^4.9.0"
   },
   "repository": {
