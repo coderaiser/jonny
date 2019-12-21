@@ -1,6 +1,6 @@
 'use strict';
 
-const test = require('tape');
+const test = require('supertape');
 const jonny = require('..');
 
 test('jonny: parse', (t) => {
@@ -13,7 +13,7 @@ test('jonny: parse', (t) => {
 test('jonny: stringify', (t) => {
     const obj = {};
     obj.a = {
-        obj
+        obj,
     };
     
     const fn = () => jonny.stringify(obj);

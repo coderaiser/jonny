@@ -4,12 +4,10 @@
   "description": "Work with json with no exceptions",
   "main": "lib/jonny.js",
   "scripts": {
-    "test": "tape 'test/**/*.js'",
-    "coverage": "nyc npm test",
-    "lint": "eslint lib test",
-    "build": "babel lib -d legacy",
-    "legacy": "echo \"module.exports = require('./jonny')\" > legacy/index.js",
-    "wisdom": "redrun build legacy"
+    "test": "madrun test",
+    "coverage": "madrun coverage",
+    "lint": "madrun lint",
+    "fix:lint": "madrun fix:lint"
   },
   "dependencies": {
     "try-catch": "^2.0.0"
@@ -25,6 +23,9 @@
     "redrun": "^7.0.0",
     "supertape": "^1.2.4",
     "tape": "^4.9.0"
+  },
+  "engines": {
+    "node": ">=6"
   },
   "repository": {
     "type": "git",

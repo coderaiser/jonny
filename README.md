@@ -25,14 +25,6 @@ jonny.stringify(obj, 0, 4));
 undefined
 ```
 
-## Environments
-
-In old `node.js` environments that supports `es5` only, `jonny` could be used with:
-
-```js
-var jonny = require('jonny/legacy');
-```
-
 ## License
 
 MIT
