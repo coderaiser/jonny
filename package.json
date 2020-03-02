@@ -15,12 +15,11 @@
   "devDependencies": {
     "coveralls": "^3.0.0",
     "eslint": "^6.8.0",
-    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-putout": "^3.0.0",
     "madrun": "^5.2.1",
     "nyc": "^15.0.0",
     "putout": "^7.3.3",
-    "redrun": "^7.0.0",
     "supertape": "^1.2.4",
     "tape": "^4.9.0"
   },
