@@ -1,6 +1,6 @@
 {
   "name": "jonny",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Work with json with no exceptions",
   "main": "lib/jonny.js",
   "scripts": {
